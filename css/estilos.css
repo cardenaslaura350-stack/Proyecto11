@@ -5,13 +5,13 @@ body {
     background-color: #f4f4f9;
 }
 
-.main-content {
+.contenido-principal {
     padding: 40px;
     text-align: center;
 }
 
 /* Estilos del Banner de Cookies */
-.cookie-banner {
+.banner-cookies {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -25,24 +25,24 @@ body {
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
-.cookie-content {
+.contenido-cookies {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-.cookie-icon {
+.icono-cookies {
     font-size: 28px;
 }
 
-.cookie-text p {
+.texto-cookies p {
     margin: 0;
     font-size: 14px;
     line-height: 1.4;
     color: #e0e0e0;
 }
 
-.accept-btn {
+.boton-aceptar {
     background-color: #ffffff;
     color: #000000;
     border: none;
@@ -53,11 +53,11 @@ body {
     transition: background-color 0.2s;
 }
 
-.accept-btn:hover {
+.boton-aceptar:hover {
     background-color: #e0e0e0;
 }
 
 /* Clase para ocultar el banner */
-.hidden {
+.oculto {
     display: none;
 }
